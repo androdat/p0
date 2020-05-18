@@ -1,0 +1,67 @@
+.box {
+  background-color: #9DA1A2;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 2em;
+  position: relative;
+  -webkit-box-shadow: 0 0px 10px 4px #1395ea;
+          box-shadow: 0 0px 10px 4px #1395ea;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.image {
+  height: 250px;
+  width: 120px;
+  margin-top: 1em;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.text {
+  position: absolute;
+  top: 45px;
+  left: 175px;
+  font-weight: bold;
+}
+
+#my-row1 {
+  height: 300px;
+}
+
+#my-row2 {
+  height: 300px;
+}
+
+.my-col {
+  height: 300px;
+}
+
+#container {
+  margin-left: 9em;
+}
+
+@media (max-width: 850px) {
+  #my-row1 {
+    width: 100%;
+    height: 100%;
+  }
+  #my-row2 {
+    width: 100%;
+    height: 100%;
+  }
+  #container {
+    margin-left: 0em;
+  }
+  .my-col {
+    margin: 2em;
+  }
+}
+/*# sourceMappingURL=devices.css.map */

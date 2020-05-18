@@ -1,0 +1,59 @@
+p {
+  text-align: center;
+  margin-left: 20em;
+  margin-bottom: 0em;
+  font-weight: bold;
+  margin-top: 0;
+  font-size: x-large;
+}
+
+#img {
+  height: 32em;
+  margin-top: 3em;
+  margin-right: 12em;
+}
+
+#fm {
+  margin-top: 7em;
+}
+
+@media (max-width: 850px) {
+  #col1 {
+    margin: 0em;
+    width: 50%;
+  }
+  #img {
+    height: 20em;
+    margin-top: 0em;
+    margin-left: 8em;
+    margin-right: 0em;
+  }
+  .main-form {
+    width: 20em;
+    margin-top: 0em;
+    margin-left: 8em;
+  }
+  #fm {
+    margin-top: 0em;
+  }
+  .my-search-button {
+    margin-left: 5em;
+    margin-top: 0.5em;
+  }
+  p {
+    display: block;
+    text-align: center;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    font-weight: bold;
+  }
+}
+
+.button {
+  border: none;
+  border-radius: 200px;
+  background-color: #1395EA;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+/*# sourceMappingURL=contact.css.map */

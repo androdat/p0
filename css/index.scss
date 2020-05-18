@@ -1,0 +1,134 @@
+$backcolor:#1B8334;
+$navcolor: #2CB978;
+$cardbackcolour: #9DA1A2;
+
+
+
+
+nav
+{
+ 
+   
+    a{
+        img
+        {
+            
+            padding: 0em;
+            margin: 0em;
+            height: 2em;
+        }
+    }
+}
+
+.nav-item
+{
+    margin: 0 1.5em;
+}
+
+
+
+
+.my-row
+{
+   // border: 3px solid red;
+    height: 550px;
+    width: 1200px;
+    margin-top: 3em;
+   
+  
+}
+
+.my-col
+{
+    //border: 3px solid red;
+}
+
+#p1
+{
+    margin-top: 3em;
+    width: 25em;
+}
+
+
+#col1
+{
+    //text-align: center; 
+}
+#ul1
+{
+  text-decoration: none;
+  list-style-type: none;
+  li {
+
+    margin: 2.8em;
+  }
+}
+
+#why
+{
+    text-align: center;
+    margin-left: 0.8em;
+}
+
+#img1
+{
+ height: 550px;  
+ position: relative;
+}
+
+#forabsolute
+{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+#col2
+{
+  
+    background-image: url(v.png);
+    
+}
+
+
+@media (max-width: 800px) {
+
+  #col2
+  {
+      margin-left: 1em;
+      
+  }
+
+  #p1
+  {
+      width: 25em;
+    
+  }
+
+
+    #why
+    {
+        text-align: center;
+        margin-left: 0.8em;
+    }
+
+    #forabsolute
+{
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+}
+#col1
+{
+    margin-left: 1em;
+    
+}
+
+#img1
+{
+    margin-left: 5em;
+}
+
+}
